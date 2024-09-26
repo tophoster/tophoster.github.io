@@ -15,24 +15,24 @@
 // "english"
 // "polish"
 // "russian"
-config.language = "english"
+config.language = "russian"
 
 // Use an image for the logo instead of text
 config.logo_use_image = true
 
 // Image filename for the server logo
 // (Place the image file in the images folder)
-config.logo_image = "logo.png"
+config.logo_image = "minigames.png"
 
 // Text to be shown on logo
-config.logo_text = "SleekLoad"
+config.logo_text = "CloudSky Minigames"
 
 // Use the server's name for the logo
-config.logo_servername = false
+config.logo_servername = true
 
 // Center logo?
 // "true" or "false"
-config.logo_center = false
+config.logo_center = true
 
 // Display current map and gamemode?
 // "true" or "false"
@@ -41,7 +41,7 @@ config.logo_show_info = true
 // Use a video for the background?
 // Otherwise it will use images
 // "true" or "false"
-config.background_use_video = true
+config.background_use_video = false
 
 // Default available videos:
 // "blue_rays.webm"
@@ -60,7 +60,7 @@ config.background_video = "purple_blue_rays.webm"
 // Also, the image needs to be in .jpg format
 // E.g: gm_flatgrass.jpg, gm_construct.jpg, rp_downtown_v4c_v2.jpg
 // "true" or "false"
-config.background_map_based = false
+config.background_map_based = true
 
 // (Image-background only)
 // Place one or more images
@@ -75,7 +75,7 @@ config.background_images = [
 // (Image-background only)
 // Random background images order?
 // "true" or "false"
-config.background_images_random_order = true
+config.background_images_random_order = false
 
 // (Image-background only)
 // Delay between background images changes
@@ -97,11 +97,11 @@ config.background_darkening = 30
 
 // Play music during the loading screen?
 // "true" or "false"
-config.music_enable = true
+config.music_enable = false
 
 // Display current music name?
 // "true" or "false"
-config.music_show = true
+config.music_show = false
 
 // Music playlist
 // Add as many youtube ids/urls or audio files you want
@@ -129,18 +129,18 @@ config.music_playlist = [
 
 // Random music order?
 // "true" or "false"
-config.music_random_order = true
+config.music_random_order = false
 
 // Music volume
 // Choose a value between 0 (quietest) and 100 (loudest)
-config.music_volume = 15
+config.music_volume = 0
 
 // Use Gmod volume for the music instead of manual volume
-config.music_gmod_volume = true
+config.music_gmod_volume = false
 
 // Enable custom messages?
 // "true" or "false"
-config.messages_enable = true
+config.messages_enable = false
 
 // Enter your custom messages below
 config.messages_list = [
